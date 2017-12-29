@@ -36,9 +36,9 @@ public class NewGamePanel extends JPanel{
         init();
     }
     public void init(){
-        logoImg=new ImageIcon("logo.png");
+        logoImg=new ImageIcon("./UI/logo.png");
         black=new JLabel();
-        blk=new ImageIcon("Untitled-1.png");
+        blk=new ImageIcon("./UI/Untitled-1.png");
         msg=new JPanel();
         msgLbl=new JLabel("Please, Enter name");
         msgLbl2=new JLabel("and difficulty.");
@@ -49,15 +49,15 @@ public class NewGamePanel extends JPanel{
     name = new JTextField("PlayerName");
     easy = new JLabel();
     hard = new JLabel();
-    btnImg=new ImageIcon("btn1.png");
-    bgImg=new ImageIcon("BG.png");
-    btn2Img=new ImageIcon("btn2.png");
-    btn3Img=new ImageIcon("btn3.png");
-    easych=new ImageIcon("easych.png");
-    easynch=new ImageIcon("easy.png");
-    hardch=new ImageIcon("hardch.png");
-    hardnch=new ImageIcon("hard.png");
-    blackImg=new ImageIcon("black.png");
+    btnImg=new ImageIcon("./UI/btn1.png");
+    bgImg=new ImageIcon("./UI/BG.png");
+    btn2Img=new ImageIcon("./UI/btn2.png");
+    btn3Img=new ImageIcon("./UI/btn3.png");
+    easych=new ImageIcon("./UI/easych.png");
+    easynch=new ImageIcon("./UI/easy.png");
+    hardch=new ImageIcon("./UI/hardch.png");
+    hardnch=new ImageIcon("./UI/hard.png");
+    blackImg=new ImageIcon("./UI/black.png");
     startBtn = new JLabel();
     backBtn = new JLabel();
     startLbl = new JLabel("            Start");

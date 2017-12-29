@@ -33,11 +33,11 @@ public class LeaderBoardPanel extends JPanel {
         hardScore=new JLabel("Score ");
         easyName=new JLabel("Name ");
         easyScore=new JLabel("Score ");
-        btnImg=new ImageIcon("btn1.png");
-        bgImg=new ImageIcon("BG.png");
-        btn2Img=new ImageIcon("btn2.png");
-        btn3Img=new ImageIcon("btn3.png");
-        pnlImg=new ImageIcon("score panel.png");
+        btnImg=new ImageIcon("./UI/btn1.png");
+        bgImg=new ImageIcon("./UI/BG.png");
+        btn2Img=new ImageIcon("./UI/btn2.png");
+        btn3Img=new ImageIcon("./UI/btn3.png");
+        pnlImg=new ImageIcon("./UI/score panel.png");
         backBtn=new JLabel();
         backLbl=new JLabel("            Back");
         f2=new Font(backLbl.getText(),Font.BOLD,20);

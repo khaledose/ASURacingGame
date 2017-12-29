@@ -60,10 +60,10 @@ public class StartGamePanel extends JPanel{
         playerName = new JLabel();
         mainMenuBtn = new JLabel();
         mainMenuLbl = new JLabel("       Main Menu");
-        btnImg=new ImageIcon("btn1.png");
-        btn2Img=new ImageIcon("btn2.png");
-        btn3Img=new ImageIcon("btn3 - Copy.png");
-        blk=new ImageIcon("Untitled-1.png");
+        btnImg=new ImageIcon("./UI/btn1.png");
+        btn2Img=new ImageIcon("./UI/btn2.png");
+        btn3Img=new ImageIcon("./UI/btn3 - Copy.png");
+        blk=new ImageIcon("./UI/Untitled-1.png");
         f1=new Font(scoreLbl.getText(),Font.BOLD,30);
         f2=new Font(mainMenuLbl.getText(),Font.BOLD,20);
         f3=new Font(mainMenuLbl.getText(),Font.BOLD,25);

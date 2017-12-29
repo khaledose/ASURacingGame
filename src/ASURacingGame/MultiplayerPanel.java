@@ -49,10 +49,10 @@ public class MultiplayerPanel extends JPanel{
         redVehicles=new ArrayList();
         blueVehicles=new ArrayList();
         rand=new Random();
-        blackImg=new ImageIcon("Untitled-1.png");
-        btnImg=new ImageIcon("btn1.png");
-        btn2Img=new ImageIcon("btn2.png");
-        btn3Img=new ImageIcon("btn3.png");
+        blackImg=new ImageIcon("./UI/Untitled-1.png");
+        btnImg=new ImageIcon("./UI/btn1.png");
+        btn2Img=new ImageIcon("./UI/btn2.png");
+        btn3Img=new ImageIcon("./UI/btn3.png");
         lanes[0]=2*18;
         lanes[1]=8*18;
         lanes[2]=14*18;

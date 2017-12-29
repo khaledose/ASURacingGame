@@ -14,13 +14,13 @@ public class mainMenuPanel extends JPanel{
             init();
         }
         public void init(){
-            logoImg=new ImageIcon("logo.png");
+            logoImg=new ImageIcon("./UI/logo.png");
             logo=new JLabel();
-            btnImg=new ImageIcon("btn1.png");
-        BGImg=new ImageIcon("BG.png");
-        btn2Img=new ImageIcon("btn2.png");
-        btn3Img=new ImageIcon("btn3.png");
-        blackImg=new ImageIcon("black.png");
+            btnImg=new ImageIcon("./UI/btn1.png");
+        BGImg=new ImageIcon("./UI/BG.png");
+        btn2Img=new ImageIcon("./UI/btn2.png");
+        btn3Img=new ImageIcon("./UI/btn3.png");
+        blackImg=new ImageIcon("./UI/black.png");
         blackPnl=new JLabel();
         backgroundPnl=new JLabel();
         newgameBtn =new JLabel();

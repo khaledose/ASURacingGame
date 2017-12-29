@@ -15,7 +15,7 @@ class RaceFrame extends JFrame{
         init();
     }
     public void init() throws FileNotFoundException, IOException, LineUnavailableException, UnsupportedAudioFileException{
-        frameIcon= new ImageIcon("icon.png");
+        frameIcon= new ImageIcon("./UI/icon.png");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setTitle("ASU Racing");
